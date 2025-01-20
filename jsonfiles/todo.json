@@ -1,0 +1,98 @@
+[
+  {
+    "taskName": "exercise2",
+    "totalMinutes": 45,
+    "timeOfDay": "morning",
+    "completionStatus": false,
+    "id": 3,
+    "taskid": "##E003"
+  },
+  {
+    "taskName": "badminton",
+    "totalMinutes": 45,
+    "timeOfDay": "morning",
+    "completionStatus": false,
+    "id": 2,
+    "taskid": "##B002"
+  },
+  {
+    "taskName": "OOAD",
+    "totalMinutes": 60,
+    "timeOfDay": "morning",
+    "completionStatus": true,
+    "id": 12,
+    "taskid": "##H0012"
+  },
+  {
+    "taskName": "CompilerDesign",
+    "totalMinutes": 60,
+    "timeOfDay": "morning",
+    "completionStatus": false,
+    "id": 13,
+    "taskid": "##A0013"
+  },
+  {
+    "taskName": "HarshLab",
+    "totalMinutes": 120,
+    "timeOfDay": "morning",
+    "completionStatus": false,
+    "id": 14,
+    "taskid": "##C0014"
+  },
+  {
+    "taskName": "AbWorkout",
+    "totalMinutes": 45,
+    "timeOfDay": "evening",
+    "completionStatus": true,
+    "id": 4,
+    "taskid": "##E004"
+  },
+  {
+    "taskName": "walking",
+    "totalMinutes": 60,
+    "timeOfDay": "evening",
+    "completionStatus": false,
+    "id": 5,
+    "taskid": "##W005"
+  },
+  {
+    "taskName": "bookreading",
+    "totalMinutes": 150,
+    "timeOfDay": "evening",
+    "completionStatus": false,
+    "id": 7,
+    "taskid": "##B007"
+  },
+  {
+    "taskName": "bath",
+    "totalMinutes": 60,
+    "timeOfDay": "night",
+    "completionStatus": true,
+    "id": "11",
+    "taskid": "##B0011"
+  },
+  {
+    "taskName": "gaming",
+    "totalMinutes": 90,
+    "timeOfDay": "night",
+    "completionStatus": false,
+    "id": 6,
+    "taskid": "##G006"
+  },
+  {
+    "taskName": "jumanji",
+    "totalMinutes": 150,
+    "timeOfDay": "night",
+    "completionStatus": true,
+    "id": 9,
+    "taskid": "##J009"
+  },
+  {
+    "taskName": "eating",
+    "totalMinutes": 150,
+    "timeOfDay": "night",
+    "completionStatus": false,
+    "id": 8,
+    "taskid": "##E008"
+  }
+]
