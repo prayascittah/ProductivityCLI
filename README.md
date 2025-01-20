@@ -54,6 +54,9 @@ npm -v
 #Clone repo
 git clone https://github.com/prayascittah/ProductivityCLI.git
 
+# If the node-modules does not exit
+npm init -y
+
 # Install dependencies:
 npm install
 
