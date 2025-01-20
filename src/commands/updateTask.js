@@ -12,6 +12,7 @@ const filePath = path.resolve(process.env.FILE_PATH);
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
+    terminal: false
 });
 
 export async function updateTask(taskid, taskName) {
@@ -19,29 +20,22 @@ export async function updateTask(taskid, taskName) {
         // ensure the existence of file
         await filechecker(); 
         let data = await fs.readFile(filePath, 'utf-8');
-        const list = JSON.parse(data);
+        const list = await JSON.parse(data);
 
         // Find the task to update
-        let taskIndex = -1;
-        for (let i = 0; i < list.length; ++i) {
-            if (list[i].taskName === taskName 
-                && list[i].taskid === taskid ) {
-                taskIndex = i;
-                break;
-            }
-        }
+        const task = list.find(t => t.taskid === taskid && t.taskName === taskName);
 
-        if (taskIndex === -1) {
+        if (!task) {
             console.log("Task not found!");
+            rl.close();
             return;
         }
 
-        const task = list[taskIndex];
         // Show current details
         console.log("Current task details:", task);
 
         // Ask user what to update
-        rl.question('Update detail? (timeRequired / timeOfDay / taskName / completionStatus): ', (field) => {
+        rl.question('Update detail? (timeRequired / timeOfDay / taskName / completionStatus): ', async (field) => {
             if (field.toLowerCase() === 'timerequired') {
                 rl.question('New timeRequired (hh:mm): ', async (newTime) => {
                     const [hours, minutes] = newTime.split(':').map(Number);
@@ -99,7 +93,7 @@ export async function updateTask(taskid, taskName) {
                 console.log("Updated task!");
 
                 // Sort the list and write it back to the JSON file
-                listsort(list);
+                await listsort(list);
                 console.log("Task updated successfully!");
                 rl.close();
             } 
@@ -108,7 +102,8 @@ export async function updateTask(taskid, taskName) {
                 rl.close();
             }
         });
-    } catch (err) {
+    } 
+    catch (err) {
         console.log('Error:', err);
         rl.close();
     }

@@ -10,7 +10,8 @@ const configpath = path.resolve(process.env.CONFIG_PATH);
 
 const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout
+    output: process.stdout,
+    terminal: false
 });
 
 

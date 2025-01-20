@@ -10,7 +10,8 @@ dotenv.config();
 const filePath = path.resolve(process.env.FILE_PATH);
 const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout
+    output: process.stdout,
+    terminal: false
 });
 
 export async function listTask() {
@@ -74,7 +75,7 @@ export async function listTask() {
                         }
                         else {
                             table.push([
-                                { content: Chalk.hex('#5DD358')(t.taskid), hAlign: 'center' },
+                                { content: Chalk.hex('#f21b3f')(t.taskid), hAlign: 'center' },
                                 { content: Chalk.strikethrough.hex('#f21b3f')(t.taskName), hAlign: 'center' },
                                 { content: Chalk.strikethrough.hex('#adb5bd')(`${t.totalMinutes} minutes`), hAlign: 'center' }
                             ]);

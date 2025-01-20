@@ -7,7 +7,8 @@ dotenv.config();
 const filePath = path.resolve(process.env.FILE_PATH);
 const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout
+    output: process.stdout,
+    terminal: false
 });
 
 export async function deleteTask(taskid, taskName) {

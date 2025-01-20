@@ -1,19 +1,11 @@
 [
   {
-    "taskName": "exercise2",
-    "totalMinutes": 45,
+    "taskName": "HarshLab",
+    "totalMinutes": 120,
     "timeOfDay": "morning",
-    "completionStatus": false,
-    "id": 3,
-    "taskid": "##E003"
-  },
-  {
-    "taskName": "badminton",
-    "totalMinutes": 45,
-    "timeOfDay": "morning",
-    "completionStatus": false,
-    "id": 2,
-    "taskid": "##B002"
+    "completionStatus": true,
+    "id": 14,
+    "taskid": "##C0014"
   },
   {
     "taskName": "OOAD",
@@ -32,28 +24,28 @@
     "taskid": "##A0013"
   },
   {
-    "taskName": "HarshLab",
-    "totalMinutes": 120,
+    "taskName": "exercise2",
+    "totalMinutes": 45,
     "timeOfDay": "morning",
     "completionStatus": false,
-    "id": 14,
-    "taskid": "##C0014"
+    "id": 3,
+    "taskid": "##E003"
   },
   {
-    "taskName": "AbWorkout",
+    "taskName": "badminton",
     "totalMinutes": 45,
-    "timeOfDay": "evening",
-    "completionStatus": true,
-    "id": 4,
-    "taskid": "##E004"
+    "timeOfDay": "morning",
+    "completionStatus": false,
+    "id": 2,
+    "taskid": "##B002"
   },
   {
-    "taskName": "walking",
-    "totalMinutes": 60,
-    "timeOfDay": "evening",
+    "taskName": "Dose",
+    "totalMinutes": 20,
+    "timeOfDay": "morning",
     "completionStatus": false,
-    "id": 5,
-    "taskid": "##W005"
+    "id": 15,
+    "taskid": "##B0015"
   },
   {
     "taskName": "bookreading",
@@ -64,20 +56,20 @@
     "taskid": "##B007"
   },
   {
-    "taskName": "bath",
+    "taskName": "walking",
     "totalMinutes": 60,
-    "timeOfDay": "night",
-    "completionStatus": true,
-    "id": "11",
-    "taskid": "##B0011"
+    "timeOfDay": "evening",
+    "completionStatus": false,
+    "id": 5,
+    "taskid": "##W005"
   },
   {
-    "taskName": "gaming",
-    "totalMinutes": 90,
-    "timeOfDay": "night",
-    "completionStatus": false,
-    "id": 6,
-    "taskid": "##G006"
+    "taskName": "AbWorkout",
+    "totalMinutes": 45,
+    "timeOfDay": "evening",
+    "completionStatus": true,
+    "id": 4,
+    "taskid": "##E004"
   },
   {
     "taskName": "jumanji",
@@ -94,5 +86,21 @@
     "completionStatus": false,
     "id": 8,
     "taskid": "##E008"
+  },
+  {
+    "taskName": "gaming",
+    "totalMinutes": 90,
+    "timeOfDay": "night",
+    "completionStatus": false,
+    "id": 6,
+    "taskid": "##G006"
+  },
+  {
+    "taskName": "bath",
+    "totalMinutes": 60,
+    "timeOfDay": "night",
+    "completionStatus": true,
+    "id": "11",
+    "taskid": "##B0011"
   }
 ]
