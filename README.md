@@ -2,6 +2,15 @@
 
 A CLI based task manager built using Node.js to help you manager your task from the terminal.
 
+![Look](./Media/Look.png)
+<video width="320" height="400" controls>
+  <source src="./Media/coolpart.mp4" type="video/mp4">
+  <source src="./Media/coolpart.webm" type="video/webm">
+  <source src="./Media/coolpart.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+
 # Motivation
 
 Recently, I revisited middleware concepts, Node.js, and its various applications. This exploration sparked an idea to build a CLI-based todo manager, which would help me become more familiar with working in the terminal environment. Undertaking this project has provided an opportunity to deepen my understanding and practical implementation of asynchronous JavaScript.
@@ -20,7 +29,7 @@ HTML, JavaScript, Node, Bunch of Library
 
 **Library used in node***
 
-![alt text](./Images/libraryused.png)
+![alt text](./Media/libraryused.png)
 
 
 
