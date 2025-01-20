@@ -12,10 +12,14 @@ Overall, working on this ProductivityCLI has been an enriching experience!!
 
 ## Built With
 
--- **Tech used:** 
-HTML, JavaScript, Node
+**Tech used:** 
+
+HTML, JavaScript, Node, Bunch of Library
+
+
 
 **Library used in node***
+
 ![alt text](./Images/libraryused.png)
 
 
